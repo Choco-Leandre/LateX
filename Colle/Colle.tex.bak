@@ -54,7 +54,7 @@
 \newcommand{\dashfill}{\leaders\hbox to 0.2em{\hss-\hss}\hfill}
 
 
-\newtcolorbox[auto counter]{definition}[2][]{%
+\newtcolorbox[auto counter]{definition}[2][]{
   enhanced, breakable,
   frame hidden,
   borderline west={3pt}{0pt}{mygreen!80}, 
@@ -70,7 +70,7 @@
 }
 
 % THEOREME
-\newtcolorbox[auto counter]{theoreme}[2][]{%
+\newtcolorbox[auto counter]{theoreme}[2][]{
   enhanced, breakable,
   frame hidden,
   borderline west={3pt}{0pt}{myhardred!80}, 
@@ -272,9 +272,9 @@
   {ù}{{\`u}}1
   {î}{{\^i}}1
   {ô}{{\^o}}1,
-    basicstyle=\color{myText}\fontsize{9.5pt}{9pt}\ttfamily, % police monospaced
+    basicstyle=\color{myText}\fontsize{9.5pt}{9pt}\ttfamily, 
     keywordstyle=\color{myKeyword}\bfseries,
-    commentstyle=\color{myComment}\hspace{-1pt}, % Police commentaire
+    commentstyle=\color{myComment}\hspace{-1pt}, 
     stringstyle=\color{myString},
     identifierstyle=\color{myText},
     numberstyle=\tiny\color{myLineNumbers},
